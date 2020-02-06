@@ -33,8 +33,9 @@ class Team extends Component {
         if(this.state.formName.toLowerCase() === teamName){
             let userRef = firebase.database().ref('users/' + this.props.userId);
             let teamRef = userRef.child('levels').child(this.currentLevel).child(this.userTeam.id);
-            teamRef.update({check: true});
-        } else {
+            teamRef.update({check: true});         
+         }             
+         else {
             this.setState({ formName: '', });
 
             const image = document.getElementById('img-non-checked');
