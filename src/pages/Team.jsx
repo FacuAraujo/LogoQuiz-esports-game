@@ -19,10 +19,7 @@ class Team extends Component {
         this.match = props.match;
         this.currentLevel = this.match.params.levelName;
         this.level = props.levels[this.currentLevel];
-        console.log(this.level)
-        this.team = this.level.find(item => item.id === Number(this.match.params.teamId));
-        console.log(this.team)
-        console.log(props.user.levels);        
+        this.team = this.level.find(item => item.id === Number(this.match.params.teamId));      
         this.filterUserTeam = props.user.levels[this.currentLevel].filter(item => item.id === this.team.id);
         this.userTeam = this.filterUserTeam[0];          
     }    
