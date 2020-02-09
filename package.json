@@ -1,6 +1,6 @@
 {
   "name": "logoquizgame",
-  "homepage":"https://facuaraujo.github.io/logoquiz-esports-game/",
+  "homepage": "https://facuaraujo.github.io/logoquiz-esports-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
