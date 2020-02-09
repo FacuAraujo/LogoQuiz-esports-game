@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/logoquiz-esports-game/static/css/main.e123e2e6.chunk.css",
+    "main.js": "/logoquiz-esports-game/static/js/main.86c00f8e.chunk.js",
+    "main.js.map": "/logoquiz-esports-game/static/js/main.86c00f8e.chunk.js.map",
+    "runtime-main.js": "/logoquiz-esports-game/static/js/runtime-main.c86da41f.js",
+    "runtime-main.js.map": "/logoquiz-esports-game/static/js/runtime-main.c86da41f.js.map",
+    "static/css/2.510409cd.chunk.css": "/logoquiz-esports-game/static/css/2.510409cd.chunk.css",
+    "static/js/2.86c87313.chunk.js": "/logoquiz-esports-game/static/js/2.86c87313.chunk.js",
+    "static/js/2.86c87313.chunk.js.map": "/logoquiz-esports-game/static/js/2.86c87313.chunk.js.map",
+    "index.html": "/logoquiz-esports-game/index.html",
+    "precache-manifest.0dad85e706798f90fae8218c3dffab3e.js": "/logoquiz-esports-game/precache-manifest.0dad85e706798f90fae8218c3dffab3e.js",
+    "service-worker.js": "/logoquiz-esports-game/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/logoquiz-esports-game/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.e123e2e6.chunk.css.map": "/logoquiz-esports-game/static/css/main.e123e2e6.chunk.css.map",
+    "static/media/LogoQuiz_logo.svg": "/logoquiz-esports-game/static/media/LogoQuiz_logo.99419477.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c86da41f.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.86c87313.chunk.js",
+    "static/css/main.e123e2e6.chunk.css",
+    "static/js/main.86c00f8e.chunk.js"
+  ]
+}
