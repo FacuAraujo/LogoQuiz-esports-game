@@ -1,40 +1,135 @@
 const levels = {
-  "level1": {
-    "1": {id: 0, check: false}, 
-    "2": {id: 1, check: false}, 
-    "3": {id: 2, check: false}, 
-    "4": {id: 3, check: false}, 
-    "5": {id: 4, check: false}, 
-    "6": {id: 5, check: false}, 
-    "7": {id: 6, check: false}, 
-    "8": {id: 7, check: false}, 
-    "9": {id: 8, check: false}, 
-    "10": {id: 9, check: false},
-    "11": {id: 10, check: false},
-    "12": {id: 11, check: false},
-    "13": {id: 12, check: false},
-    "14": {id: 13, check: false},
-    "15": {id: 14, check: false},
-    "16": {id: 15, check: false}
+  "level1" : {
+    "0" : {
+      "check" : false,
+      "id" : 0
+    },
+    "1" : {
+      "check" : false,
+      "id" : 1
+    },
+    "2" : {
+      "check" : false,
+      "id" : 2
+    },
+    "3" : {
+      "check" : false,
+      "id" : 3
+    },
+    "4" : {
+      "check" : false,
+      "id" : 4
+    },
+    "5" : {
+      "check" : false,
+      "id" : 5
+    },
+    "6" : {
+      "check" : false,
+      "id" : 6
+    },
+    "7" : {
+      "check" : false,
+      "id" : 7
+    },
+    "8" : {
+      "check" : false,
+      "id" : 8
+    },
+    "9" : {
+      "check" : false,
+      "id" : 9
+    },
+    "10" : {
+      "check" : false,
+      "id" : 10
+    },
+    "11" : {
+      "check" : false,
+      "id" : 11
+    },
+    "12" : {
+      "check" : false,
+      "id" : 12
+    },
+    "13" : {
+      "check" : false,
+      "id" : 13
+    },
+    "14" : {
+      "check" : false,
+      "id" : 14
+    },
+    "15" : {
+      "check" : false,
+      "id" : 15
+    }
   },
-
-  "level2": {
-    "17": {id: 16, check: false}, 
-    "18": {id: 17, check: false}, 
-    "19": {id: 18, check: false}, 
-    "20": {id: 19, check: false}, 
-    "21": {id: 20, check: false}, 
-    "22": {id: 21, check: false}, 
-    "23": {id: 22, check: false}, 
-    "24": {id: 23, check: false}, 
-    "25": {id: 24, check: false}, 
-    "26": {id: 25, check: false},
-    "27": {id: 26, check: false},
-    "28": {id: 27, check: false},
-    "29": {id: 28, check: false},
-    "30": {id: 29, check: false},
-    "31": {id: 30, check: false},
-    "32": {id: 31, check: false}
+  "level2" : {
+    "16" : {
+      "check" : false,
+      "id" : 16
+    },
+    "17" : {
+      "check" : false,
+      "id" : 17
+    },
+    "18" : {
+      "check" : false,
+      "id" : 18
+    },
+    "19" : {
+      "check" : false,
+      "id" : 19
+    },
+    "20" : {
+      "check" : false,
+      "id" : 20
+    },
+    "21" : {
+      "check" : false,
+      "id" : 21
+    },
+    "22" : {
+      "check" : false,
+      "id" : 22
+    },
+    "23" : {
+      "check" : false,
+      "id" : 23
+    },
+    "24" : {
+      "check" : false,
+      "id" : 24
+    },
+    "25" : {
+      "check" : false,
+      "id" : 25
+    },
+    "26" : {
+      "check" : false,
+      "id" : 26
+    },
+    "27" : {
+      "check" : false,
+      "id" : 27
+    },
+    "28" : {
+      "check" : false,
+      "id" : 28
+    },
+    "29" : {
+      "check" : false,
+      "id" : 29
+    },
+    "30" : {
+      "check" : false,
+      "id" : 30
+    },
+    "31" : {
+      "check" : false,
+      "id" : 31
+    }
   }
 }
 

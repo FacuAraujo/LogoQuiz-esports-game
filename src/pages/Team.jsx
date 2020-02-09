@@ -20,8 +20,8 @@ class Team extends Component {
         this.currentLevel = this.match.params.levelName;
         this.level = props.levels[this.currentLevel];
         this.team = this.level.find(item => item.id === Number(this.match.params.teamId));
-        this.filterUserTeam = props.user.levels[this.currentLevel].filter(item => item.id === this.team.id);
-        this.userTeam = this.filterUserTeam[0];          
+        this.filterUserTeam = props.user.levels[this.currentLevel];
+        this.userTeam = this.filterUserTeam[this.match.params.teamId];          
     }    
 
     // Check nombre introducido por el usuario
@@ -63,7 +63,6 @@ class Team extends Component {
 
     render() {
         let team = this.team;    
-        
         // Renderizar una vista u otra si el nivel esta check o no
         if(!this.userTeam.check){
             return(

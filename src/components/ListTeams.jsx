@@ -16,8 +16,8 @@ class ListTeams extends Component {
     }
     
     filterCheck(teamId) {
-        let teamFilter = this.props.userLevels[this.currentLevel].filter(item => item.id === teamId);
-        let team = teamFilter[0];
+        let teamFilter = this.props.userLevels[this.currentLevel];
+        let team = teamFilter[teamId];
         return team.check;
     } 
     
