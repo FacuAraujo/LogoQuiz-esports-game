@@ -5,10 +5,8 @@ $violetaClaro: #767ADB;
 $amarilloClaro: #FFE70F; 
 $boxShadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 
-@font-face {
-    font-family: Roboto;
-    src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');    
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 ::selection {
     background: #a38bfa;
   }
@@ -70,7 +68,7 @@ body {
     background: rgb(29,30,54);
     background: linear-gradient(0deg, rgba(29,30,54,1) 0%, rgba(43,44,79,1) 100%);
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     min-height: 100vh;
 }
 
@@ -193,7 +191,7 @@ body {
     padding: 0 24px;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Roboto',arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     }
 
 // END LOGIN

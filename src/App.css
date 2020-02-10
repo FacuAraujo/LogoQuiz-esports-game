@@ -1,12 +1,7 @@
-@font-face {
-  font-family: Roboto;
-  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-}
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
 ::-moz-selection {
   background: #a38bfa;
 }
-
 ::selection {
   background: #a38bfa;
 }
@@ -75,7 +70,7 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, from(#1d1e36), to(#2b2c4f));
   background: linear-gradient(0deg, #1d1e36 0%, #2b2c4f 100%);
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   min-height: 100vh;
 }
 
@@ -254,7 +249,7 @@ body {
   padding: 0 24px;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Roboto',arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #header {
