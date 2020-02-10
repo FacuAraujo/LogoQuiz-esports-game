@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, HashRouter } from 'react-router-dom';
 import firebase from 'firebase';
 
 // Import niveles generales
@@ -60,31 +60,31 @@ class Game extends Component {
     render() {        
         if(this.state.levels && this.state.user){
             return(
-                <Router>
-                    <Route exact path="/" component={() => {
-                        return <Home 
-                                    userLevels={this.state.user.levels} 
-                                    levels={this.state.levels} 
-                                />
-                    }} />
+                <HashRouter basename='/'>
+                        <Route exact path="/" component={() => {
+                            return <Home 
+                                        userLevels={this.state.user.levels} 
+                                        levels={this.state.levels} 
+                                    />
+                        }} />
 
-                    <Route exact path="/levels/:levelName" component={(props) => {
-                        return <ListTeams 
-                                    {...props} 
-                                    userLevels={this.state.user.levels} 
-                                    levels={this.state.levels} 
-                                />
-                    }} />
+                        <Route exact path="/levels/:levelName" component={(props) => {
+                            return <ListTeams 
+                                        {...props} 
+                                        userLevels={this.state.user.levels} 
+                                        levels={this.state.levels} 
+                                    />
+                        }} />
 
-                    <Route exact path="/levels/:levelName/team/:teamId" component={(props) => {
-                        return <Team 
-                                    {...props} 
-                                    user={this.state.user} 
-                                    userId={this.props.user.uid} 
-                                    levels={this.state.levels}
-                                 />
-                    }} />                                       
-                </Router>
+                        <Route exact path="/levels/:levelName/team/:teamId" component={(props) => {
+                            return <Team 
+                                        {...props} 
+                                        user={this.state.user} 
+                                        userId={this.props.user.uid} 
+                                        levels={this.state.levels}
+                                    />
+                        }} />                                    
+                </HashRouter>  
             );
         }
 

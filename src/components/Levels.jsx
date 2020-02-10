@@ -16,8 +16,8 @@ class Levels extends Component {
                     <ul>
                         {this.keys.map( level => {
                             return <Link key={level} to={`/levels/${level}`}>                                
-                                <li className="level-item">Level {level.split('level')}</li>
-                            </Link>
+                                        <li className="level-item">Level {level.split('level')}</li>
+                                    </Link>
                         })}
                     </ul>
                 </div>
