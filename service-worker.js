@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/logoquiz-esports-game/precache-manifest.4a5cb32d65250df239ed177b1ee5e2e9.js"
+  "/logoquiz-esports-game/precache-manifest.990a46bd436597fcad8e344e7425491d.js"
 );
 
 self.addEventListener('message', (event) => {
