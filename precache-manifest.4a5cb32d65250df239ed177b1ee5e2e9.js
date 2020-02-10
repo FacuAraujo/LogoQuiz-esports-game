@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c463bc666526fb0a5aff6c97c92e588",
+    "revision": "ae2219dd629955eba7542ca9f377de19",
     "url": "/logoquiz-esports-game/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/logoquiz-esports-game/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "b892f54f021528224d19",
+    "revision": "9a22a1b31b7bb4b36730",
     "url": "/logoquiz-esports-game/static/css/main.0e196ad6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/logoquiz-esports-game/static/js/2.86c87313.chunk.js"
   },
   {
-    "revision": "b892f54f021528224d19",
-    "url": "/logoquiz-esports-game/static/js/main.2e70537c.chunk.js"
+    "revision": "9a22a1b31b7bb4b36730",
+    "url": "/logoquiz-esports-game/static/js/main.da4e5825.chunk.js"
   },
   {
     "revision": "420f41a847ff9c9a0218",
