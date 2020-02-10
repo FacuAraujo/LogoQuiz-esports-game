@@ -15,7 +15,6 @@ class Levels extends Component {
                 <div className="levels-list">
                     <ul>
                         {this.keys.map( level => {
-                            console.log(level);
                             return <Link key={level} to={`/levels/${level}`}>                                
                                 <li className="level-item">Level {level.split('level')}</li>
                             </Link>
