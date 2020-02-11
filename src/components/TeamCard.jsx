@@ -7,8 +7,8 @@ class TeamCard extends Component {
         if(!this.props.check) {
             return (
                 <Link to={`/levels/${this.props.currentLevel}/team/${this.props.team.id}`} >
-                    <div className="card card-team">
-                        <img src={this.props.team.img} alt="team" className="img-fluid"/>
+                    <div id={'id' + this.props.team.id} className="card card-team">
+                        <img src={this.props.team.img} alt="" className="img-fluid" />                                                    
                     </div>
                 </Link>
             );
@@ -19,8 +19,7 @@ class TeamCard extends Component {
                 </div>                
             );
         }
-    }   
-        
+    }     
 }
 
 export default TeamCard;
